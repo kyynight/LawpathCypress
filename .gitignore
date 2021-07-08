@@ -1,0 +1,6 @@
+.idea/
+node_modules
+cypress/videos
+cypress/support
+cypress/plugins
+cypress/fixtures
