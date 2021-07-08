@@ -13,7 +13,7 @@ describe('Sign up with New User', {scrollBehavior: false}, () => {
         cy.get('input[name="lastName"]').type('Wick')
         cy.get('input[name="phone"]').type('123456')
         // Randomised email string with datetime
-        var email = Date.now() + "@testin.com"
+        var email = Date.now() + "@testing.com"
         cy.get('input[name="email"]').type(email)
         cy.get('input[name="password"]').type('123456')
 
