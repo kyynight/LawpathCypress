@@ -17,4 +17,4 @@
     $./cypress/videos
     
 <h1>Project structure</h1>
-Tests are run using [Cypress framework](https://www.cypress.io/). Source files are located inside `cypress/integration` folder
+Tests are run using [Cypress framework](https://www.cypress.io/) . Source files are located inside `cypress/integration` folder
