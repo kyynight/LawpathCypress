@@ -15,6 +15,7 @@ describe('Sign up with Existing User', {scrollBehavior: false}, () => {
         cy.get('input[name="email"]').type('123@333.com')
         cy.get('input[name="password"]').type('123456')
 
+        cy.wait(1000)
         // And he hits Sign Up
         cy.get('button[id="signup-submit"]').click();
 
